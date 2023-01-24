@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="normalize.css" type="text/css">
+  <link rel="stylesheet" href="themes.css" type="">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+<body id="theme2">
+  <div class="contenedor__calculadora">
+
+    <!-- Cabezera de la calculadora -->
+    <div class="contenedor__calculadora--head">
+      <h1>calc</h1>
+      <div class="cambiar--tema">
+        <div class="conetenedor_tema" >
+          <span class="title__theme">THEME</span>
+          <div class="theme__opt">
+            <span id="theme_1">1</span>
+            <span id="theme_2">2</span>
+            <span id="theme_3">3</span>
+          </div>
+          <div class = "btn__theme" id="circle-theme">
+            <div class = "switch-button" aria-hidden="true">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pantalla -->
+    <div class="contenedor__calculadora--screen">
+      <div class="screen--result"></div>
+    </div>
+
+    <!-- Botones -->
+    <div class="contenedor__calculadora--buttons">
+      <button class="boton" id="7">7</button>
+      <button class="boton" id="8">8</button>
+      <button class="boton" id="9">9</button>
+      <button class="boton-eliminar" id="eliminar">DEL</button>
+      <button class="boton" id="4">4</button>
+      <button class="boton" id="5">5</button>
+      <button class="boton" id="6">6</button>
+      <button class="boton signo" id="suma">+</button>
+      <button class="boton" id="1">1</button>
+      <button class="boton" id="2">2</button>
+      <button class="boton" id="3">3</button>
+      <button class="boton signo" id="-">-</button>
+      <button class="boton signo" id=".">.</button>
+      <button class="boton" id="0">0</button>
+      <button class="boton signo" id="/">/</button>
+      <button class="boton signo" id="x">x</button>
+      <button class="boton-reset" id="reset">RESET</button>
+      <button class="boton-calcular" id="=">=</button>
+    </div>
+  </div>
+  
+
+</body>
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Miguel Serna</a>.
+  </div>
+</footer>
+<script src="/js/script.js"></script>
+<script src="/js/animation.js"></script>
+</html>

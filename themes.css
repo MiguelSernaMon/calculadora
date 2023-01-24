@@ -1,0 +1,165 @@
+/*THEME ONE*/
+/*THEME TWO*/
+/*THEME THREE*/
+body#theme1 .contenedor__calculadora {
+  background-color: rgba(59, 70, 100, 0.8549019608);
+}
+body#theme1 h1 {
+  color: #fcfefc;
+}
+body#theme1 .theme__opt span {
+  color: #fcfefc;
+}
+body#theme1 .btn__theme {
+  background-color: #252d44;
+}
+body#theme1 .btn__theme .switch-button {
+  background-color: #c85401;
+}
+body#theme1 .contenedor__calculadora--screen {
+  background-color: #181f32;
+  color: #fcfefc;
+}
+body#theme1 .contenedor__calculadora--buttons {
+  background-color: #252d44;
+}
+body#theme1 .boton {
+  background-color: #fff;
+  color: #000;
+}
+body#theme1 .boton-reset {
+  background-color: hsl(225deg, 21%, 49%);
+  color: #fff;
+}
+body#theme1 .boton-eliminar {
+  background-color: hsl(225deg, 21%, 49%);
+  color: #fff;
+}
+body#theme1 .boton-calcular {
+  background-color: hsl(6deg, 63%, 50%);
+  color: #fff;
+  box-shadow: 0 0.19em 0em #902418;
+}
+body#theme1 footer .attribution {
+  color: rgb(0, 0, 0);
+  font-size: 11px;
+  text-align: center;
+  background-color: rgba(59, 70, 100, 0.8549019608);
+  padding: 1.6em;
+  height: 30vh;
+  margin-bottom: 0;
+}
+body#theme1 footer .attribution a {
+  color: #f1da45;
+}
+
+body#theme2 .contenedor__calculadora {
+  background-color: #e6e6e6;
+}
+body#theme2 h1 {
+  color: #343429;
+}
+body#theme2 .theme__opt span {
+  color: #343429;
+}
+body#theme2 .btn__theme {
+  background-color: #d4cccb;
+}
+body#theme2 .btn__theme .switch-button {
+  background-color: #c85401;
+}
+body#theme2 .contenedor__calculadora--screen {
+  background-color: #eeeeee;
+  color: #343429;
+}
+body#theme2 .contenedor__calculadora--buttons {
+  background-color: #d3cdcd;
+}
+body#theme2 .boton {
+  background-color: hsl(45deg, 7%, 89%);
+  color: #000;
+  font-weight: bolder;
+  font-size: 25px;
+  box-shadow: 0 0.1em 0em rgba(138, 139, 141, 0.8549019608);
+}
+body#theme2 .boton-reset {
+  background-color: #388187;
+  color: #fff;
+  box-shadow: 0 0.19em 0em #1c5f66;
+}
+body#theme2 .boton-eliminar {
+  background-color: #388187;
+  color: #fff;
+  box-shadow: 0 0.19em 0em #1c5f66;
+}
+body#theme2 .boton-calcular {
+  background-color: #c85401;
+  color: #fff;
+  box-shadow: 0 0.19em 0em #883903;
+}
+body#theme2 footer .attribution {
+  color: rgb(0, 0, 0);
+  font-size: 11px;
+  text-align: center;
+  padding: 1.6em;
+}
+body#theme2 footer .attribution a {
+  color: blue;
+}
+
+body#theme3 .contenedor__calculadora {
+  background-color: #17062a;
+}
+body#theme3 h1 {
+  color: #f1da45;
+}
+body#theme3 .theme__opt span {
+  color: #f1da45;
+}
+body#theme3 .btn__theme {
+  background-color: #1e0836;
+}
+body#theme3 .btn__theme .switch-button {
+  background-color: #00decf;
+}
+body#theme3 .contenedor__calculadora--screen {
+  background-color: #1e0836;
+  color: #f1da45;
+}
+body#theme3 .contenedor__calculadora--buttons {
+  background-color: #1e0836;
+}
+body#theme3 .boton {
+  background-color: hsl(268deg, 47%, 21%);
+  color: #f1da45;
+  font-weight: bolder;
+  font-size: 25px;
+  box-shadow: 0 0.1em 0em hsl(285deg, 91%, 52%);
+}
+body#theme3 .boton-reset {
+  background-color: #56077c;
+  color: #fff;
+  box-shadow: 0 0.19em 0em #9511c5;
+}
+body#theme3 .boton-eliminar {
+  background-color: #56077c;
+  color: #fff;
+  box-shadow: 0 0.19em 0em #9511c5;
+}
+body#theme3 .boton-calcular {
+  background-color: #00decf;
+  color: #fff;
+  box-shadow: 0 0.19em 0em #68f9f2;
+  color: #000;
+}
+body#theme3 footer .attribution {
+  color: rgb(0, 0, 0);
+  font-size: 11px;
+  text-align: center;
+  background-color: #17062a;
+  padding: 1.6em;
+  height: 27vh;
+}
+body#theme3 footer .attribution a {
+  color: #f1da45;
+}/*# sourceMappingURL=themes.css.map */
